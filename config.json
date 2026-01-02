@@ -1,23 +1,2 @@
-{
-  "spider": "https://mirror.ghproxy.com/https://github.com/hjdhnx/dr_py/raw/main/lib/spider.jar",
-  "sites": [
-    {
-      "key": "smt_live",
-      "name": "SMT(直播)",
-      "type": 3,
-      "api": "./py/SMT.py",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./py/SMT.py" 
-    }
-  ],
-  "lives": [
-    {
-      "name": "SMT直播列表",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/doube-ba/TVlogo/refs/heads/main/smt.txt",
-      "playerType": 1
-    }
-  ]
-}
+{"name":"SMT(直播)(py)","type":3,"url":"https://raw.githubusercontent.com/doube-ba/TVlogo/refs/heads/main/smt.txt","api":"./py/SMT.py","ext":{"proxy":"http://192.168.123.10:7890"}}
+
