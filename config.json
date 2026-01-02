@@ -1,0 +1,16 @@
+{
+  "spider": "https://mirror.ghproxy.com/https://github.com/hjdhnx/dr_py/raw/main/lib/spider.jar", 
+  "sites": [
+    {
+      "key": "smt_live",
+      "name": "我的SMT直播",
+      "type": 3,
+      "api": "./py/SMT.py",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "url": "https://raw.githubusercontent.com/doube-ba/TVlogo/refs/heads/main/smt.txt",
+      "ext": {}
+    }
+  ]
+}
